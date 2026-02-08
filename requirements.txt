@@ -1,0 +1,36 @@
+llvmlite==0.42.0
+numba==0.59.1
+langchain
+langchain-groq
+faiss-cpu
+tiktoken
+langchain-community
+langchain-classic
+langchain
+langchain-openai
+chromadb
+sentence-transformers
+pypdf
+python-dotenv
+pymupdf
+unstructured
+pdfminer
+python-docx
+docx2txt
+pandas
+openpyxl
+jq
+matplotlib
+## Embeddings
+langchain-huggingface
+sentence-transformers
+langchain-experimental
+langchain-core
+rank_bm25
+wikipedia
+langgraph
+langchain-text-splitters
+pinecone-client >=5.0.0,<7.0.0
+langchain-pinecone ~=0.2
+langchain-google-genai
+
