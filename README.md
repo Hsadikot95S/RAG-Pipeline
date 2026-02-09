@@ -46,14 +46,22 @@ This workspace contains multiple folders and files related to Retrieval-Augmente
 - **output/**: Stores output files from query enhancement experiments.
 
 ## VectorDatabases/
-- **1-chromadb.ipynb**: Introduction and usage of ChromaDB.
-- **2-faiss.ipynb**: FAISS vector database usage.
-- **3-Othervectorstores.ipynb**: Other vector store implementations.
-- **Datastaxdb+%281%29.ipynb**: Datastax database integration.
-- **doc_0.txt, doc_1.txt, doc_2.txt**: Sample documents for vector database experiments.
-- **embedding.ipynb**: Embedding generation for vector databases.
-- **openaiembeddings.ipynb**: Using OpenAI embeddings.
-- **PineconeVectorDB.ipynb**: Pinecone vector database usage.
+ **1-chromadb.ipynb**: Introduction and usage of ChromaDB.
+ **2-faiss.ipynb**: FAISS vector database usage.
+ **3-Othervectorstores.ipynb**: Other vector store implementations.
+ **doc_0.txt, doc_1.txt, doc_2.txt**: Sample documents for vector database experiments.
+ **embedding.ipynb**: Embedding generation for vector databases.
+ **openaiembeddings.ipynb**: Using OpenAI embeddings.
+ **PineconeVectorDB.ipynb**: Pinecone vector database usage.
+
+## Langgraph/
+ - **1-simplegraph.ipynb**: Introduction to LangGraph with a simple graph example.
+ - **2-chatbot.ipynb**: Building a chatbot using LangGraph.
+ - **3-DataclassStateSchema.ipynb**: Using dataclass state schemas in LangGraph.
+ - **4-pydantic.ipynb**: Integrating Pydantic with LangGraph for data validation.
+ - **5-ChainsLangGraph.ipynb**: Implementing chains in LangGraph.
+ - **6-chatbotswithmultipletools.ipynb**: Creating chatbots with multiple tools in LangGraph.
+ - **requirements.txt**: Dependencies for LangGraph projects.
 
 ---
 
