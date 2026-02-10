@@ -1,6 +1,70 @@
+## Autonomous_Rag/
+Contains advanced RAG strategies and experiments:
+ - **3-COTRag.ipynb**: Chain-of-Thought RAG experiments.
+ - **4-Selfreflection.ipynb**: Self-reflection in RAG pipelines.
+ - **5-QueryPlanningdecomposition.ipynb**: Query planning and decomposition for RAG.
+ - **6-Iterativeretrieval.ipynb**: Iterative retrieval strategies.
+ - **7-answersynthesis.ipynb**: Answer synthesis techniques for RAG.
+
+## RAG_Agents/
+Contains agent-based RAG experiments and debugging:
+ - **1-streaming.ipynb**: Streaming agent RAG.
+ - **3-Debugging/**: Debugging utilities and notebooks for RAG agents.
+ - **7-ReActAgents.ipynb**: ReAct agent-based RAG.
+
+## React_Agents/
+Agentic and ReAct-based RAG experiments:
+ - **1-AgenticRAG-2.ipynb**: Agentic RAG experiments (version 2).
+ - **1-agenticrag.ipynb**: Agentic RAG experiments.
+ - **1-streaming.ipynb**: Streaming agent RAG.
+ - **2-ReAct.ipynb**: ReAct agent experiments.
+ - **7-ReActAgents.ipynb**: ReAct agent-based RAG.
+ - **research_notes.txt**: Research notes for agentic RAG.
+ - **sample_docs.txt**: Sample documents for agentic RAG.
+
+## Top-level Notebooks and Files
+- **1-rag_evaluation.ipynb**: Evaluation of RAG pipelines and strategies.
+- **2-CorrectiveRAG.ipynb**: Corrective RAG techniques and experiments.
+- **4-AdaptiveRAG.ipynb**: Adaptive RAG strategies.
+- **8-multiagent.ipynb**: Multi-agent RAG experiments.
+- **cache_augment_generation.ipynb**: Caching and augmentation in RAG generation.
+- **cache_augment_generration.ipynb**: (Possible duplicate or variant; check for correct spelling and content.)
+- **rag_evaluation.ipynb**: (Possible duplicate or variant; check for correct spelling and content.)
+- **CorrectiveRAG.ipynb**: (Possible duplicate or variant; check for correct spelling and content.)
+- **AdaptiveRAG.ipynb**: (Possible duplicate or variant; check for correct spelling and content.)
+- **ragmemory.ipynb**: Memory-augmented RAG experiments.
+- **uv.lock**: Lock file for dependency management.
+- **.env**: Environment variables (excluded from version control).
+- **.gitignore**: Git ignore rules for sensitive and build files.
+- **.python-version**: Python version specification.
+- **.secrets.baseline**: Security baseline for secrets scanning.
+- **.venv/**: Python virtual environment directory.
 # Workspace README
 
-This workspace contains multiple folders and files related to Retrieval-Augmented Generation (RAG), data ingestion, parsing, hybrid search strategies, query enhancement, and vector databases. Below is an overview of each folder and its contents (excluding the Langgraph folder):
+This workspace contains multiple folders and files related to Retrieval-Augmented Generation (RAG), data ingestion, parsing, hybrid search strategies, query enhancement, vector databases, LangGraph, and a full RAG pipeline. Below is an overview of each folder and its contents:
+## Full_Rag_Pipeline/
+This directory contains a complete pipeline for document ingestion, processing, and retrieval-augmented generation, including a Streamlit app for interactive use.
+
+- **main.py**: Main entry point for the pipeline.
+- **pyproject.toml**: Project configuration and dependencies for the pipeline.
+- **requirements.txt**: Python dependencies for the pipeline.
+- **streamlit_app.py**: Streamlit web application for interacting with the RAG pipeline.
+- **uv.lock**: Lock file for dependencies.
+- **.env**: Environment variables (should contain API keys and credentials; excluded from version control).
+- **data/**: Contains sample data files (e.g., attention.pdf, url.txt).
+- **src/**: Source code for the pipeline, organized as follows:
+    - **config/**: Configuration files and settings.
+    - **document_ingestion/**: Document ingestion logic, including:
+        - **document_processor.py**: Main document processing logic.
+    - **graph_builder/**: Graph construction logic, including:
+        - **graph_builder.py**: Main graph builder implementation.
+    - **node/**: Node definitions and logic, including:
+        - **nodes.py**: Node implementations.
+        - **reactnode.py**: React node logic.
+    - **state/**: State management, including:
+        - **rag_state.py**: RAG state definitions.
+    - **vectorstore/**: Vector store logic, including:
+        - **vectorstore.py**: Vector database integration.
 
 ## Root Files
 - **main.py**: Main entry point for the project.
@@ -65,5 +129,6 @@ This workspace contains multiple folders and files related to Retrieval-Augmente
 
 ---
 
-For detailed descriptions, refer to the individual notebook files. Each notebook contains code and explanations for its specific topic.
+For detailed descriptions, refer to the individual notebook files and scripts. Each notebook or script contains code and explanations for its specific topic.
+
 
