@@ -33,4 +33,4 @@ langchain-text-splitters
 pinecone-client >=5.0.0,<7.0.0
 langchain-pinecone ~=0.2
 langchain-google-genai
-
+langchainhub
